@@ -49,7 +49,6 @@ int main()
 	 		case 's':if(cury+1<N&&(map[cury+1][curx]=='*'||map[cury+1][curx]=='E')) cury++;break;
 	 		case 'a':if(curx-1>=0&&(map[cury][curx-1]=='*'||map[cury][curx-1]=='E')) curx--;break;
 	 		case 'd':if(curx+1<M&&(map[cury][curx+1]=='*'||map[cury][curx+1]=='E')) curx++;break;
-	 		default: break;
 		 }
 		  printf("\n恭喜你成功找出出口!"); 
 		 if(map[cury][curx]=='E') break;
